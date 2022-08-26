@@ -10,7 +10,7 @@ body
 	background-color: #fef9f8;
 }
 .decore-color{
-	font-size: .25em;
+	font-size: .5em;
 	background-color: #ef9273;
 	color: #ef9273;
 }
@@ -242,6 +242,7 @@ button:hover{
 }
 .card{
 	width: 82%;
+	height: 13em;
 	padding: 5px 10px;
 	background: #ef9273;
 	border-radius: 25px;
@@ -251,7 +252,7 @@ button:hover{
 	text-align: center;
 }
 .card i{
-	font-size: 1.8em;
+	font-size: 2em;
 	display: block;
 	text-align: center;
 	margin: .5em 0em;
@@ -261,7 +262,7 @@ button:hover{
 h5{
 	color: #fff;
 	font-size: 1.5em;
-	margin-bottom: .5em;
+	margin-bottom: .3em;
 }
 .pra p{
 	margin: 0em .5em;
@@ -454,7 +455,7 @@ h1{
 }
 .content .phtroi{
 	color: #0d0d0d;
-	font-size: 1.8em;
+	font-size: 175%;
 	letter-spacing: .01em;
 	text-align: center;
 	padding-bottom: 0.2em;
@@ -496,7 +497,7 @@ h2{
 	justify-content: center;
 	text-align: center;
 	line-height: 1.4em;
-	font-size: 1.2em;
+	font-size: 125%;
 }
 .btnnewn{
 	display: flex;
