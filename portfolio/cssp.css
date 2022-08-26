@@ -10,7 +10,7 @@ body
 	background-color: #fef9f8;
 }
 .decore-color{
-	font-size: .5em;
+	font-size: .4em;
 	background-color: #ef9273;
 	color: #ef9273;
 }
@@ -131,7 +131,7 @@ h2{
 .img1 img{
     display: flex;
     justify-self: center;
-	width: 85%;
+	width: 87.5%;
 	height: 100%;
 	position: relative;
 	box-shadow: none;
@@ -167,7 +167,7 @@ h2{
 .about{
 	width: 100%;
 	display: grid;;
-	padding-top: 5em;
+	padding-top: 4em;
 	padding-bottom: .7em;
 }
 .about img{
@@ -261,7 +261,7 @@ button:hover{
 }
 h5{
 	color: #fff;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	margin-bottom: .3em;
 }
 .pra p{
