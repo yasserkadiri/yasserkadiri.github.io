@@ -9,7 +9,7 @@
 	display: block;
 }
 .core{
-	display: grid;
+	display: block;
 	width: 100%;
 	margin-top: 2.75em;
 	background: #f5cac2;
@@ -59,7 +59,7 @@
 }
 .forme p{
 	padding: 0.75em 0em;
-	font-size: .9em;
+	font-size: .8em;
 	font-weight: bold;
 	letter-spacing: .05em;
 }
@@ -74,7 +74,7 @@
 	font-size: 1em;
 }
 .lis{
-	padding: .5em 2em;
+	padding: .25em 2em;
 	text-align: left;
 	font-size: 1em;
 }
@@ -84,14 +84,14 @@
 	width: 100%;
 	overflow: scroll;
 	font-size: 1em;
-	padding: 1em;
+	padding: .9em;
 }
 .lis input:focus{
 	outline: none;
     box-shadow: 0 0 3px #ed7966 inset;
 }
 .lis1{
-	padding: .5em 2em;
+	padding: .25em 2em;
 	margin-top: -1.5em;
 	text-align: left;
 	font-size: 1em;
@@ -101,8 +101,8 @@
 	box-shadow: 1px 1px 3px silver inset ;
 	width: 100%;
 	overflow: scroll;
-	font-size: .9em;
-	padding: 1em;
+	font-size: 1em;
+	padding: .9em;
 }
 .lis1 input:focus{
 	outline: none;
@@ -141,10 +141,10 @@ select:focus{
 textarea{
 	border: none;
 	box-shadow: 1px 1px 3px silver inset ;
-	height: 15vh;
+	height: 12vh;
 	width: 100%;
 	resize: none;
-	font-size: 1.2em;
+	font-size: 1em;
 	padding: 1em;
 }
 textarea:focus{
@@ -154,7 +154,6 @@ textarea:focus{
 .btn{
 	width: 50%;
 	height: 4.5vh;
-
 	margin: 2em 0 2em 0;
 	border-style: none;
 	border-radius: 30px;
@@ -173,7 +172,7 @@ textarea:focus{
 	box-shadow: 0 0 2.5px #ed7966;
 }
 hr{
-	display: none;
+	display: flex;
 	height: .5px;
     width: 50%;
     background-color: #ed7966;
@@ -185,7 +184,8 @@ hr{
 	padding: 2em 1.1em 2em 1.1em;
 	color: #141850;
 	text-align: left;
-	display: grid;
+	position: absolute;
+	background: #f5cac2;
 }
 .right-sec h1{
 	padding-bottom: .5em;
@@ -226,21 +226,6 @@ hr{
 }
 .decore-clr{
 	color: #ed7966;
-}
-.forme{
-	padding-top: 1.5em;
-	background: #fff;
-	margin-left: 5%;
-	width: 35%;
-	height: 100vh;
-	box-shadow: 0 0 10px lightgray;
-	color: #141850;
-}
-.forme p{
-	padding: 1.5em 0em 1em 0em;
-	font-size: .7em;
-	font-weight: bold;
-	letter-spacing: .05em;
 }
 .navv{
 	background-color: #fff;
@@ -302,6 +287,21 @@ hr{
 .navv .social-media a i:hover {
 	transform: scale(1.3);
 }
+.forme{
+	padding-top: 0;
+	background: #fff;
+	margin-left: 5%;
+	width: 35%;
+	height: 90vh;
+	box-shadow: 0 0 10px lightgray;
+	color: #141850;
+}
+.forme p{
+	padding: 1.5em 0em 1em 0em;
+	font-size: .7em;
+	font-weight: bold;
+	letter-spacing: .05em;
+}
 .pid{
 	display: none;
 }
@@ -360,9 +360,8 @@ hr{
 select{
     border: none;
 	box-shadow: 1px 1px 3px silver inset ;
-	height: 4%;
 	width: 100%;
-	font-size: .9em;
+	font-size: 1em;
 	padding: 1em;
 	position: relative;
 	margin-top: 1.5em;
@@ -390,7 +389,7 @@ textarea:focus{
 	height: 3.25em;
 	position: relative;
     cursor: pointer;
-	margin: 1.75em 0;
+	margin: 1em 0;
 	border-style: none;
 	border-radius:30px;
 	background: #ed7966;
@@ -421,6 +420,8 @@ hr{
 	padding: 7em 2em 2em 3em;
 	color: #141850;
 	text-align: left;
+	position: relative;
+	background: transparent;
 }
 .right-sec h1{
 	padding-bottom: .5em;
