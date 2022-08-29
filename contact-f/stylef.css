@@ -1,7 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif ;
+	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 	letter-spacing: 0.01em;
 }
@@ -11,7 +11,7 @@
 .core{
 	display: block;
 	width: 100%;
-	margin-top: 2.75em;
+	margin-top: 3em;
 	background: #f5cac2;
 }
 .decore-clr{
@@ -28,7 +28,7 @@
 	width: 100%;
 	top: 0;
 	letter-spacing: 0.05em;
-	border-radius: 1px;
+	border-radius: 2px;
 }
 .navv p{
 	font-weight:500;
@@ -47,18 +47,18 @@
 	padding: 0em 1em;
 }
 .forme{
-	padding: 1em 0em;
+	padding: 1em 0em 0 0;
 	background: #fff;
 	/*margin-left: 4%;
 	margin-right: 4%;*/
 	width: 100%;
-	height: 40em;
+	height: 45em;
 	box-shadow: 0 0 10px lightgray;
 	color: #141850;
 	display: grid;
 }
 .forme p{
-	padding: 0.75em 0em;
+	padding: 0.5em 0em;
 	font-size: .8em;
 	font-weight: bold;
 	letter-spacing: .05em;
@@ -66,7 +66,7 @@
 .pid{
 	display: inline-block;
 	line-height: 1.5em;
-	font-size: .9em !important;
+	font-size: 1em !important;
 	color: 	#808080;
 }
 .pid a i{
@@ -74,35 +74,37 @@
 	font-size: 1em;
 }
 .lis{
-	padding: .25em 2em;
-	text-align: left;
+	padding: 0.2em 2em;
+	text-align: center;
 	font-size: 1em;
 }
 .lis input{
-	border: none;
+	border: thin;
 	box-shadow: 1px 1px 3px silver inset ;
 	width: 100%;
 	overflow: scroll;
 	font-size: 1em;
-	padding: .9em;
+	padding: .8em;
+	border-radius: 30px;
 }
 .lis input:focus{
 	outline: none;
     box-shadow: 0 0 3px #ed7966 inset;
 }
 .lis1{
-	padding: .25em 2em;
-	margin-top: -1.5em;
-	text-align: left;
+	padding: .5em 2em;
+	margin-top: -2em;
+	text-align: center;
 	font-size: 1em;
 }
 .lis1 input{
-	border: none;
+	border: thin;
 	box-shadow: 1px 1px 3px silver inset ;
 	width: 100%;
 	overflow: scroll;
 	font-size: 1em;
-	padding: .9em;
+	padding: .8em;
+	border-radius: 30px;
 }
 .lis1 input:focus{
 	outline: none;
@@ -129,9 +131,13 @@ select{
     border: none;
 	box-shadow: 1px 1px 3px silver inset ;
 	width: 100%;
-	font-size: .9em;
-	padding: 1em;
-	margin-top: .5em;
+	font-size: 1em;
+	padding: .8em ;
+	margin-top: 0em;
+	border-radius: 30px;
+	margin-top: -0.5em;
+	margin-bottom: 1em;
+	text-align: center;
 }
 select:focus{
 	outline: none;
@@ -141,11 +147,12 @@ select:focus{
 textarea{
 	border: none;
 	box-shadow: 1px 1px 3px silver inset ;
-	height: 12vh;
+	height: 8em;
 	width: 100%;
 	resize: none;
 	font-size: 1em;
-	padding: 1em;
+	padding: .8em;
+	border-radius: 20px;
 }
 textarea:focus{
 	outline: none;
@@ -154,7 +161,7 @@ textarea:focus{
 .btn{
 	width: 50%;
 	height: 2.5em;
-	margin: 2em 0 2em 0;
+	margin: 1em 0em 0 0;
 	border-style: none;
 	border-radius: 30px;
 	background: #ef9273;
@@ -203,9 +210,6 @@ hr{
 
 
 
-
-
-
 @media only screen and (min-width: 768px) {}
 
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -214,7 +218,7 @@ hr{
 *{
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif ;
+	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 	letter-spacing: 0.01em;
 }
@@ -292,7 +296,7 @@ hr{
 	background: #fff;
 	margin-left: 5%;
 	width: 35%;
-	height: 90vh;
+	height: 88vh;
 	box-shadow: 0 0 10px lightgray;
 	color: #141850;
 }
@@ -365,6 +369,7 @@ select{
 	padding: 1em;
 	position: relative;
 	margin-top: 1.5em;
+	margin-bottom: 0em;
 }
 select:focus{
 	outline: none;
@@ -398,7 +403,7 @@ textarea:focus{
 	text-align: center;
 	text-decoration: none;
 	font-weight: 500;
-	font-size: .8em;
+	font-size: .9em;
 	letter-spacing: 0.05em;
 }
 .btn:hover{
