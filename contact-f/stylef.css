@@ -5,10 +5,13 @@
 	box-sizing: border-box;
 	letter-spacing: 0.01em;
 }
+.all{
+	display: block;
+}
 .core{
 	display: grid;
 	width: 100%;
-	margin-top: 4em;
+	margin-top: 2.75em;
 	background: #f5cac2;
 }
 .decore-clr{
@@ -20,7 +23,7 @@
 	/*margin-left: 4%;
 	margin-right: 4%;*/
 	width: 100%;
-	height: 84.25vh;
+	height: 70vh;
 	box-shadow: 0 0 10px lightgray;
 	color: #141850;
 }
@@ -35,8 +38,8 @@
 	color: #141850;
 	display: flex;
 	justify-content: center;
-	padding: 1.5em 0;
-	box-shadow: 0px 0px 10px lightgray;
+	padding: 1em 0;
+	box-shadow: 0px 0px 15px lightgray;
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -62,7 +65,7 @@
 .pid{
 	display: inline-block;
 	line-height: 1.5em;
-	font-size: 1.1em !important;
+	font-size: 1em !important;
 	color: 	#808080;
 }
 .pid a i{
@@ -72,18 +75,20 @@
 .lis{
 	padding: .4em 2em;
 	text-align: left;
+	font-size: .8em;
 }
 .lis1{
 	padding: 0em 2em;
-	margin-top: -.75em;
+	margin-top: -1em;
 	text-align: left;
+	font-size: .8em;
 }
 .lis1 input{
 	border: none;
 	box-shadow: 1px 1px 3px silver inset ;
 	width: 100%;
 	overflow: scroll;
-	font-size: 1.2em;
+	font-size: 1em;
 	padding: 1em;
 }
 .lis1 input:focus{
@@ -95,7 +100,7 @@
 	box-shadow: 1px 1px 3px silver inset ;
 	width: 100%;
 	overflow: scroll;
-	font-size: 1.2em;
+	font-size: 1em;
 	padding: 1em;
 }
 .lis input:focus{
@@ -104,7 +109,7 @@
 }
 .lisb{
 	padding: 0em 2em;
-	margin-top: -.75em;
+	margin-top: -1em;
 	text-align: center;
 }
 .lisb input{
@@ -112,7 +117,7 @@
 	box-shadow: 1px 1px 3px silver inset ;
 	width: 100%;
 	overflow: scroll;
-	font-size: 1.2em;
+	font-size: 1em;
 	padding: 1em;
 }
 .lisb input:focus{
@@ -147,8 +152,8 @@ textarea:focus{
     box-shadow: 0 0 3px #ed7966 inset;
 }
 .btn{
-	width: 80%;
-	height: 5.5vh;
+	width: 55%;
+	height: 4.5vh;
 	position: relative;
     cursor: pointer;
 	margin: 2em 0 2em 0;
@@ -306,6 +311,7 @@ hr{
 .lis{
 	text-align: left;
 	padding: 0em 2em;
+	font-size: 1em;
 }
 .lis input{
 	border: none;
@@ -323,6 +329,7 @@ hr{
 	padding: 0em 2em;
 	margin-top: 0;
 	text-align: left;
+	font-size: 1em;
 }
 .lis1 input{
 	border: none;
