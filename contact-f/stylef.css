@@ -17,22 +17,6 @@
 .decore-clr{
 	color: #fff;
 }
-.forme{
-	padding: 1em 0em;
-	background: #fff;
-	/*margin-left: 4%;
-	margin-right: 4%;*/
-	width: 100%;
-	height: 70vh;
-	box-shadow: 0 0 10px lightgray;
-	color: #141850;
-}
-.forme p{
-	padding: 0.75em 0em;
-	font-size: 1em;
-	font-weight: bold;
-	letter-spacing: .05em;
-}
 .navv{
 	background-color: #ef9273;
 	color: #141850;
@@ -48,7 +32,7 @@
 }
 .navv p{
 	font-weight:500;
-	font-size: 1.75em;
+	font-size: 1.5em;
 }
 .navv p a{
 	text-decoration: none;
@@ -62,10 +46,27 @@
 	display: none;
 	padding: 0em 1em;
 }
+.forme{
+	padding: 1em 0em;
+	background: #fff;
+	/*margin-left: 4%;
+	margin-right: 4%;*/
+	width: 100%;
+	height: 70vh;
+	box-shadow: 0 0 10px lightgray;
+	color: #141850;
+	display: grid;
+}
+.forme p{
+	padding: 0.75em 0em;
+	font-size: .9em;
+	font-weight: bold;
+	letter-spacing: .05em;
+}
 .pid{
 	display: inline-block;
 	line-height: 1.5em;
-	font-size: 1em !important;
+	font-size: .9em !important;
 	color: 	#808080;
 }
 .pid a i{
@@ -73,27 +74,9 @@
 	font-size: 1em;
 }
 .lis{
-	padding: .4em 2em;
+	padding: .5em 2em;
 	text-align: left;
-	font-size: .8em;
-}
-.lis1{
-	padding: 0em 2em;
-	margin-top: -1em;
-	text-align: left;
-	font-size: .8em;
-}
-.lis1 input{
-	border: none;
-	box-shadow: 1px 1px 3px silver inset ;
-	width: 100%;
-	overflow: scroll;
 	font-size: 1em;
-	padding: 1em;
-}
-.lis1 input:focus{
-	outline: none;
-    box-shadow: 0 0 3px #ed7966 inset;
 }
 .lis input{
 	border: none;
@@ -104,6 +87,24 @@
 	padding: 1em;
 }
 .lis input:focus{
+	outline: none;
+    box-shadow: 0 0 3px #ed7966 inset;
+}
+.lis1{
+	padding: .5em 2em;
+	margin-top: -1.5em;
+	text-align: left;
+	font-size: 1em;
+}
+.lis1 input{
+	border: none;
+	box-shadow: 1px 1px 3px silver inset ;
+	width: 100%;
+	overflow: scroll;
+	font-size: .9em;
+	padding: 1em;
+}
+.lis1 input:focus{
 	outline: none;
     box-shadow: 0 0 3px #ed7966 inset;
 }
@@ -127,9 +128,8 @@
 select{
     border: none;
 	box-shadow: 1px 1px 3px silver inset ;
-	height: 4%;
 	width: 100%;
-	font-size: 1em;
+	font-size: .9em;
 	padding: 1em;
 	margin-top: .5em;
 }
@@ -152,10 +152,9 @@ textarea:focus{
     box-shadow: 0 0 3px #ed7966 inset;
 }
 .btn{
-	width: 55%;
+	width: 50%;
 	height: 4.5vh;
-	position: relative;
-    cursor: pointer;
+
 	margin: 2em 0 2em 0;
 	border-style: none;
 	border-radius: 30px;
@@ -174,7 +173,7 @@ textarea:focus{
 	box-shadow: 0 0 2.5px #ed7966;
 }
 hr{
-	display: flex;
+	display: none;
 	height: .5px;
     width: 50%;
     background-color: #ed7966;
@@ -186,6 +185,7 @@ hr{
 	padding: 2em 1.1em 2em 1.1em;
 	color: #141850;
 	text-align: left;
+	display: grid;
 }
 .right-sec h1{
 	padding-bottom: .5em;
