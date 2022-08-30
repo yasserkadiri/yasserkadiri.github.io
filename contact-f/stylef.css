@@ -104,7 +104,7 @@
 }
 .lise{
 	padding: 0em 2em;
-	margin-top: -1.7em;
+	margin-top: -2.25em;
 	text-align: center;
 	font-size: 1em;
 
@@ -124,7 +124,7 @@
 }
 .lisdetail{
 	padding: 0em 2em;
-	margin-top: -1.7em;
+	margin-top: -2.25em;
 	text-align: center;
 	font-size: 1em;
 
@@ -144,7 +144,7 @@
 }
 .lisb{
 	padding: 0em 2em;
-	margin-top: -1em;
+	margin-top: -1.9em;
 	text-align: center;
 }
 select{
@@ -155,7 +155,7 @@ select{
 	padding: .6em ;
 	margin-top: 0em;
 	border-radius: 20px;
-	margin-top: 0em;
+	margin-top: -0.5em;
 	margin-bottom: 0em;
 	text-align: center;
 }
@@ -208,7 +208,7 @@ hr{
 }
 .right-sec{
 	width: 100%;
-	padding: 2em 1.1em 2em 1.1em;
+	padding: 0em 1em 2em 1em;
 	color: /*#141850*/ #ef9273;
 	text-align: left;
 	position: absolute;
