@@ -55,7 +55,7 @@
 }
 .forme p{
 	padding: 0em 0em .3em 0;
-	font-size: .7em;
+	font-size: .8em;
 	font-weight: bold;
 	letter-spacing: .05em;
 	margin-left: .5em;
@@ -91,7 +91,7 @@
 	width: 80%;
 	overflow: scroll;
 	font-size: 1em;
-	padding: .8em;
+	padding: .6em;
 	border-radius: 20px;
 }
 .lis1 input:focus{
@@ -120,10 +120,10 @@ select{
 	box-shadow: 1px 1px 1px silver inset ;
    	width: 80%;
 	font-size: 1em;
-	padding: .8em ;
+	padding: .6em ;
 	margin-top: 0em;
 	border-radius: 20px;
-	margin-top: .5em;
+	margin-top: 0em;
 	margin-bottom: 0em;
 	text-align: center;
 }
@@ -139,7 +139,7 @@ textarea{
 	width: 80%;
 	resize: none;
 	font-size: 1em;
-	padding: 1em;
+	padding: .6em;
 	border-radius: 20px;
 }
 textarea:focus{
@@ -163,13 +163,13 @@ textarea:focus{
 .btn:hover{
 	background-color: transparent;
 	color: #ed7966;
-	border: .2em solid #ed7966;
-	box-shadow: 0 0 2.5px #ed7966;
+	border: .1em solid #ed7966;
+	box-shadow: 0 0 2px #ed7966;
 }
 hr{
 	display: flex;
 	height: 1px;
-    width: 60%;
+    width: 70%;
     background-color: #ed7966;
     border: none;
     box-shadow: 0 0 1px #ed7966;
