@@ -5,13 +5,10 @@
 	box-sizing: border-box;
 	letter-spacing: 0.01em;
 }
-.all{
-	display: block;
-}
 .core{
 	display: block;
 	width: 100%;
-	margin-top: 3em;
+	margin-top: 3.5em;
 	background: #f5cac2;
 }
 .decore-clr{
@@ -19,7 +16,6 @@
 }
 .navv{
 	background-color: #ef9273;
-	color: #141850;
 	display: flex;
 	justify-content: center;
 	padding: 1em 0;
@@ -28,7 +24,7 @@
 	width: 100%;
 	top: 0;
 	letter-spacing: 0.05em;
-	border-radius: 2px;
+	border-radius: 1px;
 }
 .navv p{
 	font-weight:500;
@@ -47,21 +43,22 @@
 	padding: 0em 1em;
 }
 .forme{
-	padding: 1em 0em 0 0;
+	padding: 1.5em 0 0 0;
 	background: #fff;
 	/*margin-left: 4%;
 	margin-right: 4%;*/
 	width: 100%;
-	height: 45em;
+	height: 40em;
 	box-shadow: 0 0 10px lightgray;
 	color: #141850;
 	display: grid;
 }
 .forme p{
-	padding: 0.5em 0em;
+	padding: 0em 0em .5em 0;
 	font-size: .8em;
 	font-weight: bold;
 	letter-spacing: .05em;
+	margin-left: .5em;
 }
 .pid{
 	display: inline-block;
@@ -74,28 +71,16 @@
 	font-size: 1em;
 }
 .lis{
-	padding: 0.2em 2em;
-	text-align: center;
+	padding: 0.2em 2em 0 2em;
+	text-align: left;
 	font-size: 1em;
-}
-.lis input{
-	border: thin;
-	box-shadow: 1px 1px 3px silver inset ;
-	width: 100%;
-	overflow: scroll;
-	font-size: 1em;
-	padding: .8em;
-	border-radius: 30px;
-}
-.lis input:focus{
-	outline: none;
-    box-shadow: 0 0 3px #ed7966 inset;
 }
 .lis1{
-	padding: .5em 2em;
-	margin-top: -2em;
-	text-align: center;
+	padding: 0em 2em;
+	margin-top: -1em;
+	text-align: left;
 	font-size: 1em;
+
 }
 .lis1 input{
 	border: thin;
@@ -115,7 +100,7 @@
 	margin-top: -1em;
 	text-align: center;
 }
-.lisb input{
+/*.lisb input{
 	border: none;
 	box-shadow: 1px 1px 3px silver inset ;
 	width: 100%;
@@ -126,7 +111,7 @@
 .lisb input:focus{
 	outline: none;
     box-shadow: 0 0 3px #ed7966 inset;
-}
+}*/
 select{
     border: none;
 	box-shadow: 1px 1px 3px silver inset ;
@@ -135,8 +120,8 @@ select{
 	padding: .8em ;
 	margin-top: 0em;
 	border-radius: 30px;
-	margin-top: -0.5em;
-	margin-bottom: 1em;
+	margin-top: .5em;
+	margin-bottom: 0em;
 	text-align: center;
 }
 select:focus{
@@ -147,12 +132,12 @@ select:focus{
 textarea{
 	border: none;
 	box-shadow: 1px 1px 3px silver inset ;
-	height: 8em;
+	height: 8.5em;
 	width: 100%;
 	resize: none;
 	font-size: 1em;
-	padding: .8em;
-	border-radius: 20px;
+	padding: 1em;
+	border-radius: 30px;
 }
 textarea:focus{
 	outline: none;
@@ -189,23 +174,26 @@ hr{
 .right-sec{
 	width: 100%;
 	padding: 2em 1.1em 2em 1.1em;
-	color: #141850;
+	color: /*#141850*/ #ef9273;
 	text-align: left;
 	position: absolute;
-	background: #f5cac2;
+	background: /*#f5cac2*/ #fff ;
 }
 .right-sec h1{
 	padding-bottom: .5em;
 	font-size: 1.75em;
+	color: #141850;
 }
 .right-sec p{
 	font-size: 1em;
 	line-height: 1.5em;
+	color: #141850;
 }
 .thanks p{
 	margin-top: 2em;
 	font-size: 1.2em;
 	font-weight: bold;
+	color: #141850;
 }
 
 
@@ -368,7 +356,7 @@ select{
 	font-size: 1em;
 	padding: 1em;
 	position: relative;
-	margin-top: 1.5em;
+	margin-top: 1em;
 	margin-bottom: 0em;
 }
 select:focus{
@@ -435,11 +423,13 @@ hr{
 .right-sec p{
 	font-size: 1.1em;
 	line-height: 1.5em;
+	color: #141850;
 }
 .thanks p{
 	margin-top: 2em;
 	font-size: 1.4em;
 	font-weight: bold;
+	color: #141850;
 }
 
 }
