@@ -49,12 +49,12 @@
 	margin-right: 4%;*/
 	width: 100%;
 	height: 40em;
-	box-shadow: 0 0 10px lightgray;
+	box-shadow: 0 0 12px lightgray;
 	color: #141850;
 	display: grid;
 }
 .forme p{
-	padding: 0em 0em .3em 0;
+	padding: 0;
 	font-size: .8em;
 	font-weight: bold;
 	letter-spacing: .05em;
@@ -74,7 +74,7 @@
 	margin-left: 1em;
 }
 .lis{
-	padding: 0.2em 2em 0 2em;
+	padding: .2em 2em 0 2em;
 	text-align: left;
 	font-size: 1em;
 }
@@ -83,6 +83,10 @@
 	margin-top: -1em;
 	text-align: center;
 	font-size: 1em;
+
+}
+.lis1 p{
+	padding: 0 0 .4em 0;
 
 }
 .lis1 input{
@@ -98,23 +102,51 @@
 	outline: none;
     box-shadow: 0 0 3px #ed7966 inset;
 }
+.lise{
+	padding: 0em 2em;
+	margin-top: -1.7em;
+	text-align: center;
+	font-size: 1em;
+
+}
+.lise input{
+	border: thin solid silver;
+	box-shadow: 1px 1px 1px silver inset ;
+	width: 80%;
+	overflow: scroll;
+	font-size: 1em;
+	padding: .6em;
+	border-radius: 20px;
+}
+.lise p{
+	padding: 0 0 .4em 0;
+
+}
+.lisdetail{
+	padding: 0em 2em;
+	margin-top: -1.7em;
+	text-align: center;
+	font-size: 1em;
+
+}
+.lisdetail input{
+	border: thin solid silver;
+	box-shadow: 1px 1px 1px silver inset ;
+	width: 80%;
+	overflow: scroll;
+	font-size: 1em;
+	padding: .6em;
+	border-radius: 20px;
+}
+.lisdetail p{
+	padding: 0 0 .4em 0;
+
+}
 .lisb{
 	padding: 0em 2em;
 	margin-top: -1em;
 	text-align: center;
 }
-/*.lisb input{
-	border: none;
-	box-shadow: 1px 1px 3px silver inset ;
-	width: 100%;
-	overflow: scroll;
-	font-size: 1em;
-	padding: 1em;
-}
-.lisb input:focus{
-	outline: none;
-    box-shadow: 0 0 3px #ed7966 inset;
-}*/
 select{
 	border: thin solid silver;
 	box-shadow: 1px 1px 1px silver inset ;
@@ -333,6 +365,38 @@ hr{
 	overflow: scroll;
 	font-size: 1em;
 	padding: 1em;
+}
+.lise{
+	padding: 0em 2em;
+	margin-top: -1.7em;
+	text-align: center;
+	font-size: 1em;
+
+}
+.lise input{
+	border: thin solid silver;
+	box-shadow: 1px 1px 1px silver inset ;
+	width: 80%;
+	overflow: scroll;
+	font-size: 1em;
+	padding: .6em;
+	border-radius: 20px;
+}
+.lisdetail{
+	padding: 0em 2em;
+	margin-top: -1.7em;
+	text-align: center;
+	font-size: 1em;
+
+}
+.lisdetail input{
+	border: thin solid silver;
+	box-shadow: 1px 1px 1px silver inset ;
+	width: 80%;
+	overflow: scroll;
+	font-size: 1em;
+	padding: .6em;
+	border-radius: 20px;
 }
 .lisb{
 	padding: 0em 2em;
