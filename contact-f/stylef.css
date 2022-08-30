@@ -143,8 +143,8 @@
 
 }
 .lisb{
-	padding: 0em 2em;
-	margin-top: -1.9em;
+	padding: 0;
+	margin-top: -1.5em;
 	text-align: center;
 }
 select{
@@ -155,7 +155,7 @@ select{
 	padding: .6em ;
 	margin-top: 0em;
 	border-radius: 20px;
-	margin-top: -0.5em;
+	margin-top: -1em;
 	margin-bottom: 0em;
 	text-align: center;
 }
@@ -181,9 +181,9 @@ textarea:focus{
 .btn{
 	width: 50%;
 	height: 2.5em;
-	margin: 1em 0em 0 0;
+	margin: 0;
 	border-style: none;
-	border-radius: 30px;
+	border-radius: 20px;
 	background: #ef9273;
 	color: #fff;
 	transition: .3s;
@@ -214,9 +214,10 @@ hr{
 	position: absolute;
 	background: /*#f5cac2*/ #fff ;
 }
-.right-sec h1{
+.right-sec h2{
+	margin-top: -.5em;
 	padding-bottom: .5em;
-	font-size: 1.75em;
+	font-size: 1.5em;
 	color: #141850;
 }
 .right-sec p{
