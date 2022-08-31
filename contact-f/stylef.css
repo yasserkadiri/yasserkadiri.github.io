@@ -98,10 +98,10 @@
 	padding: .8em;
 	border-radius: 20px;
 }
-.lis1 input:focus{
+/*.lis1 input:focus{
 	outline: none;
     box-shadow: 0 0 3px #ed7966 inset;
-}
+}*/
 .lise{
 	padding: 0em 2em;
 	margin-top: -2.25em;
@@ -159,10 +159,10 @@ select{
 	margin-bottom: 0em;
 	text-align: center;
 }
-select:focus{
+/*select:focus{
 	outline: none;
     box-shadow: 0 0 3px #ed7966 inset;
-}
+}*/
 
 textarea{
 	border: thin solid silver;
@@ -174,10 +174,10 @@ textarea{
 	padding: .6em;
 	border-radius: 20px;
 }
-textarea:focus{
+/*textarea:focus{
 	outline: none;
     box-shadow: 0 0 3px #ed7966 inset;
-}
+}*/
 .btn{
 	width: 50%;
 	height: 2.5em;
