@@ -33,6 +33,7 @@
 .navv p a{
 	text-decoration: none;
 	color: #fff;
+	cursor: pointer;
 }
 .n1{
 	display: none;
