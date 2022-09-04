@@ -162,7 +162,6 @@ h2{
 	font-size: 1em;
 	font-weight: normal;
 	transition: transform .4s;
-
 }
 .about{
 	width: 100%;
@@ -310,12 +309,12 @@ h5{
 	font-size: 1.2em;
 	transition: .4s; 
 }
-.contact-me .button-two:hover{
-	background-color: transparent;
+/*.contact-me .button-two:hover{
+	background-color: #fe9273;
 	border: 1px solid #fef9f8;
 	cursor: pointer;
 	color: #fef9f8;
-}
+}*/
 footer{
 	margin-top: 2em;
 	position: relative;
