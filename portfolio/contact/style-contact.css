@@ -72,25 +72,26 @@
 .plis{
 	margin-left: 1em;
 }
-.lis1{
+.lis1i{
 	padding: 0em 15%;
 	margin-top: -2em;
 	text-align: left;
 	font-size: 1em;
+	height: 2.75em;
 
 }
-.lis1 p{
-	padding: 0 0 .4em 0;
+.lis1p {
+	padding: 0 0 .1em 0;
 
 }
-.lis1 input{
+.lis1i {
 	border: thin solid silver;
 	box-shadow: 1px 1px 1px silver inset ;
-	width: 100%;
+	width: 70%;
 	overflow: scroll;
 	font-size: 1em;
 	padding: .8em;
-	border-radius: 20px;
+	border-radius: 30px;
 }
 .lisemail{
 	padding: 0em 15%;
