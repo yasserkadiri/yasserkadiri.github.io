@@ -72,7 +72,7 @@
 .plis{
 	margin-left: 1em;
 }
-.lis1i{
+/*.lis1{
 	padding: 0em 15%;
 	margin-top: -2em;
 	text-align: left;
@@ -80,11 +80,11 @@
 	height: 2.75em;
 
 }
-.lis1p {
+.lis1 p{
 	padding: 0 0 .1em 0;
 
 }
-.lis1i {
+.lis1 input {
 	border: thin solid silver;
 	box-shadow: 1px 1px 1px silver inset ;
 	width: 70%;
@@ -132,6 +132,20 @@
 .lisdetail p{
 	padding: 0 0 .4em 0;
 
+}*/
+input{
+	align-self: center;
+	align-items: center;
+	justify-self: center;
+	border: thin solid silver;
+	box-shadow: 1px 1px 1px silver inset ;
+	width: 70%;
+	overflow: scroll;
+	font-size: 1em;
+	height: 3em;
+	padding: .8em;
+	border-radius: 30px;
+	margin-top: -1.5em;
 }
 .lisb{
 	padding: 0;
@@ -139,27 +153,29 @@
 	text-align: center;
 }
 select{
+	width: 70% !important;
+	height: 3em;
 	border: thin solid silver;
 	box-shadow: 1px 1px 1px silver inset ;
-   	width: 100%;
 	font-size: 1em;
-	padding: .8em ;
+	padding: 0;
 	margin-top: 0em;
 	border-radius: 20px;
-	margin-top: 0em;
-	margin-bottom: 0em;
 	text-align: center;
+	justify-self: center;
 }
 
 textarea{
 	border: thin solid silver;
 	box-shadow: 1px 1px 1px silver inset ;
 	height: 6em;
-	width: 100%;
+	width: 70% !important;
 	resize: none;
 	font-size: 1em;
-	padding: .6em;
+	padding: .8em;
+	margin-top: -1.5em;
 	border-radius: 20px;
+	justify-self: center;
 }
 .btn{
 	width: 50%;
@@ -353,7 +369,7 @@ hr{
 .plis{
 	margin-left: 1em;
 }
-.lis1{
+/*.lis1{
 	padding: 0em 2em;
 	margin-top: 0;
 	text-align: left;
@@ -406,7 +422,7 @@ hr{
 .lisdetail p{
 	padding: 0 0 .4em 0;
 
-}
+}*/
 .lisb{
 	padding: 0em 2em;
 	margin-top: 0em;
@@ -420,10 +436,6 @@ hr{
 	overflow: scroll;
 	font-size: 1.2em;
 	padding: 1em;
-}
-.lisb input:focus{
-	outline: none;
-    box-shadow: 0 0 3px #ed7966 inset;
 }
 select{
     border: thin solid silver;
@@ -443,6 +455,7 @@ textarea{
 	resize: none;
 	font-size: 1em;
 	padding: .8em;
+	margin-top: -1em;
 }
 .btn{
 	width: 50%;
@@ -468,7 +481,6 @@ textarea{
 	border: none;
 	box-shadow: 0 0 0px #ed7966;
 	transform: scale(1.1);
-
 }
 hr{
 	display: flex;
